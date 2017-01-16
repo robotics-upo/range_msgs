@@ -2,8 +2,8 @@
 Changelog for package range_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.1 (2017-01-16)
+------------------
 * Initial version
 * Initial commit
 * Contributors: Fernando Caballero

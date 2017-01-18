@@ -21,7 +21,3 @@ generate_messages(DEPENDENCIES
 
 catkin_package(
   CATKIN_DEPENDS message_runtime)
-
-install(DIRECTORY include/range_msgs/
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
-  PATTERN "*.h")

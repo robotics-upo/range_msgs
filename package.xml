@@ -1,4 +1,4 @@
-<package>
+<package format="2">
   <name>range_msgs</name>
   <version>1.1.1</version>
   <description>
@@ -11,16 +11,17 @@
   <author>Felipe Ramón Fabresse</author>
   <author>Alfredo Vázquez Reyes</author>
   <author>Fernando Caballero Benitez</author>
-  <url></url>
+  <url type="repository">https://github.com/robotics-upo/range_msgs.git</url>
+  <url type="bugtracker">https://github.com/robotics-upo/range_msgs/issues</url>
 
   <buildtool_depend>catkin</buildtool_depend>
-  
-  <build_depend>std_msgs</build_depend>
-  <build_depend>geometry_msgs</build_depend>
+
   <build_depend>message_generation</build_depend>
-  <run_depend>std_msgs</run_depend>
-  <run_depend>geometry_msgs</run_depend>
-  <run_depend>message_runtime</run_depend>
+  <exec_depend>message_runtime</exec_depend>
+  
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  
 </package>
 
 
